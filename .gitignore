@@ -1,0 +1,4 @@
+# Ignorar documentos gerados e pastas de saída
+*.docx
+output/
+__pycache__/
