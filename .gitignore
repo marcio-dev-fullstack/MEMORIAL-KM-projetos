@@ -1,4 +1,12 @@
-# Ignorar documentos gerados e pastas de saída
-*.docx
-output/
+# Pastas de ambiente e logs
+venv/
 __pycache__/
+.streamlit/
+.ipynb_checkpoints/
+
+# Arquivos temporários do Word
+~$*.docx
+
+# Pastas de saída e logs (se não quiser versionar os resultados)
+output/
+logs/
